@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "uncle-sams-estimator"
+version = "0.1.0"
+description = "The Uncle Sam’s Estimator is used for estimating the taxes owed to Uncle Sam (Federal, State and FICA) based on your income/investments/awards. This estimator tool will provide an estimate of the potential taxes incurred from the financial instrument that you are planning to liquidate."
+authors = ["Hemin Desai <desai.hemin04@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "uncle_sams_estimator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
